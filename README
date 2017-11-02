@@ -12,8 +12,8 @@ LOBPCG with spectral regularization.
 Directories 
 -----------
 
-    data ........... Matrix pairs
+data ........... Matrix pairs
 	
-	src ............ Source code including lobpcgsr.m
+src ............ Source code including lobpcgsr.m
 					 
-	main.m ......... A calling example
+main.m ......... A calling example
