@@ -1,0 +1,19 @@
+====================
+lobpcgsr Readme File
+====================
+
+lobpcgsr solves the generalized eigenvalue problem:
+                A x = lambda B x
+where A and B are positive semi-definite and the
+corresponding pencil is singular. It applies
+LOBPCG with spectral regularization.
+
+-----------
+Directories 
+-----------
+
+    data ........... Matrix pairs
+	
+	src ............ Source code including lobpcgsr.m
+					 
+	main.m ......... A calling example
