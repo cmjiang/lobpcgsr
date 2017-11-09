@@ -2,11 +2,12 @@ function [X, lam, resHist] = lobpcgsr(A,B,Z,k,tol,mu,maxOut,maxIn)
 % lobpcgsr solves A x = lambda B x where A and B are semi-definite
 % and the common null-space is Z.
 % Inputs:
-%   A: constrained graph Laplacian
-%   B: constrained graph Laplacian
+%   A: a symmetric positive semi-definite matrix
+%   B: a symmetric positive semi-definite matrix
+%   Z: the common null-space of A and B
 %   k: LOBPCG block size
 %   tol: tolerance of LOBPCG
-%   mu: parameter of spectral transformation, used in method (2) and (3)
+%   mu: parameter of spectral regularization
 %   maxOut: maximum number of LOBPCG iterations
 %   maxIn: maximum number of inner PCG iterations
 % Outputs:
